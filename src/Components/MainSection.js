@@ -13,10 +13,10 @@ function MainSection(props)
                     <p className="helpUsFind">Help us find <b>the missing puzzle, <br/> get rewarded</b> properly.</p>
                     <form>
                         <input type="text" placeholder="Keyword, job title or company"/>
-                        <button type="submit"><img class="LogoBusqueda" src={IconoBusqueda} alt="Icono de busqueda naranja"/></button>
+                        <button type="submit"><img className="LogoBusqueda" src={IconoBusqueda} alt="Icono de busqueda naranja"/></button>
                     </form>
                 </div>
-                <img class="DosPersonasDandoseLaMano" src={DosPersonasImagen} alt="Imagen dos personas dandose la mano, representa un acuerdo, hay dinero, un contrato de fondo y una lupa en el contrato que representa detalles"/>
+                <img className="DosPersonasDandoseLaMano" src={DosPersonasImagen} alt="Imagen dos personas dandose la mano, representa un acuerdo, hay dinero, un contrato de fondo y una lupa en el contrato que representa detalles"/>
             </section>
 
         </React.Fragment>

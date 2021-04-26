@@ -5,7 +5,7 @@ import LogoCompañía from '../Images/Hermès-logo.png';
 function Jobs(props) {
  return(
      <React.Fragment>
-          <div class="Recently">
+          <div className="Recently">
                 <p >RECENTLY ADDED JOBS:</p>
         </div>
         <div className="Empresas">
@@ -18,14 +18,14 @@ function Jobs(props) {
                     <p><b>Art Director</b></p>
                     <p className="NombreCompañía"> <b>Hermès International S.A.</b> </p>
                     <img src={IconoLocalización} alt="Icono locación"/>
-                    <p class="Localcion">Harrisburg, Pennsylvania</p>
+                    <p className="Localcion">Harrisburg, Pennsylvania</p>
                 </div>
-                <div class="Interactivo">
-                        <div class="InfoDinero">
-                            <p class="Dinero">$1,240</p>
-                            <p class="HiringReward">of hiring reward</p>
+                <div className="Interactivo">
+                        <div className="InfoDinero">
+                            <p className="Dinero">$1,240</p>
+                            <p className="HiringReward">of hiring reward</p>
                         </div>
-                        <div class="Icono">
+                        <div className="Icono">
                             <img src={PiezaRompecabezas} alt="Pieza de rompecabezas tipo portafolio que se ilumina de azul y añade sombra azul"/>
                         </div>
                     </div>

@@ -1,0 +1,128 @@
+.Header {
+  display: grid;
+  grid-template-columns: repeat(29, 1fr);
+  grid-column-gap: 1em;
+}
+@media (max-width: 3000px) {
+  .Header a {
+    padding-top: 5vh;
+    padding-bottom: 1vh;
+  }
+  .Header .PiezaRompecabezas {
+    grid-column-start: 3;
+    grid-column-end: 5;
+  }
+  .Header .Home {
+    grid-column-start: 13;
+    grid-column-end: 15;
+  }
+  .Header .AboutUs {
+    grid-column-start: 15;
+    grid-column-end: 17;
+  }
+  .Header .Blog {
+    grid-column-start: 17;
+    grid-column-end: 19;
+  }
+  .Header .HowItWorks {
+    grid-column-start: 19;
+    grid-column-end: 22;
+  }
+
+  .Header .Boton1 {
+    grid-column-start: 23;
+    grid-column-end: 26;
+  }
+  .Header .Boton2 {
+    grid-column-start: 27;
+    grid-column-end: 30;
+  }
+  .Header .Boton1,
+  .Header .Boton2 {
+    margin-top: 3vh;
+  }
+}
+@media (max-width: 768px) {
+  .Header a {
+    padding-top: 2vh;
+    padding-bottom: 1vh;
+    border-bottom: aliceblue;
+    border-style: groove;
+    border-width: 1px;
+  }
+  .Header .PiezaRompecabezas {
+    grid-column-start: 15;
+    grid-column-end: 16;
+  }
+  .Header .Home {
+    grid-column-start: 1;
+    grid-column-end: 30;
+  }
+  .Header .AboutUs {
+    grid-column-start: 1;
+    grid-column-end: 30;
+  }
+  .Header .Blog {
+    grid-column-start: 1;
+    grid-column-end: 30;
+  }
+  .Header .HowItWorks {
+    grid-column-start: 1;
+    grid-column-end: 30;
+  }
+
+  .Header .Boton1 {
+    grid-column-start: 20;
+    grid-column-end: 30;
+    margin-top: 1vh;
+  }
+  .Header .Boton2 {
+    grid-column-start: 20;
+    grid-column-end: 30;
+    margin-top: 1vh;
+  }
+}
+@media (max-width: 420px) {
+  .Header a {
+    padding-top: 2vh;
+    padding-bottom: 1vh;
+  }
+
+  .Header .Boton1 {
+    grid-column-start: 11;
+    grid-column-end: 18;
+  }
+  .Header .Boton2 {
+    grid-column-start: 11;
+    grid-column-end: 18;
+  }
+}
+/* .Header {
+    display: grid;
+    grid-template-columns: repeat(20, 1fr);
+    grid-template-areas: "PiezaRompecabezas Home AboutUs Blog HowItWorks Boton1 Boton2";
+    grid-gap: 1em;
+  }
+  
+  .Header .PiezaRompecabezas {
+    grid-area: "PiezaRompecabezas";
+  }
+  .Header .Home {
+    grid-area: "Home";
+  }
+  .Header .AboutUs {
+    grid-area: "AboutUs";
+  }
+  .Header .Blog {
+    grid-area: "Blog";
+  }
+  .Header .HowItWorks {
+    grid-area: "HowItWorks";
+  }
+  .Header .Boton1 {
+    grid-area: "Boton1";
+  }
+  .Header .Boton2 {
+    grid-area: "Boton2";
+  }
+   */
