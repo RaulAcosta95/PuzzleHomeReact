@@ -1,13 +1,13 @@
 import React from 'react';
 //Componentes (Repetidos)
-import HeaderContainer from './Constructors/HeaderContainer';
+import HeaderConstructor from './Constructors/HeaderConstructor';
 
 function Layout(props) 
 {  
     //Permite que funcione el switch de rutas
     return (
         <React.Fragment>
-            <HeaderContainer />
+            <HeaderConstructor />
             {props.children}
         </React.Fragment>
     );

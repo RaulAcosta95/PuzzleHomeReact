@@ -1,8 +1,15 @@
 import React from 'react';
+//Componentes
+import MainSectionConstructor from '../Components/Constructors/MainSectionConstructor';
+import JobsConstructor from '../Components/Constructors/JobsConstructor';
+//Estilos
 import './css/Index.css'
 function Index(props) {
     return(
-        <h1>Index</h1>
+        <React.Fragment>
+            <MainSectionConstructor/>
+            <JobsConstructor/>
+        </React.Fragment>
     )
 }
 export default Index;
