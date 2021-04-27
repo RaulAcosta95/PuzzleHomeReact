@@ -3,6 +3,9 @@
   grid-template-columns: repeat(25, 1fr);
   grid-auto-rows: 10px;
 }
+.Main .PrimerP {
+  align-self: center;
+}
 @media (max-width: 3000px) {
   .Main {
     grid-template-rows: repeat(11, 1fr);
