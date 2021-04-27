@@ -1,6 +1,9 @@
 .Empresas {
   font-family: "Helvetica";
   /* Cambiar margin en grid */
+  /* -webkit-box-shadow: inset 20px 112px 63px -59px rgba(239, 242, 247, 0.25);
+  -moz-box-shadow: inset 20px 112px 63px -59px rgba(239, 242, 247, 0.25);
+  box-shadow: inset 20px 112px 63px -59px rgba(0, 0, 0, 0.25); */
 }
 .Empresas .PrimerP {
   font-size: 11px;
