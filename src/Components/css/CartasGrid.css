@@ -1,0 +1,34 @@
+.ContenedorCartas {
+  display: grid;
+  grid-row-gap: 1em;
+}
+.Empresas {
+  margin-left: 18vh;
+}
+@media (max-width: 3000px) {
+  .ContenedorCartas {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+@media (max-width: 768px) {
+  .ContenedorCartas {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .Empresas {
+    margin-left: 10vh;
+  }
+}
+
+@media (max-width: 420px) {
+  .ContenedorCartas {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .Empresas {
+    margin-left: 10%;
+  }
+}
+/* @media (max-width: 3000px) {
+  .ContenedorCartas {
+    grid-template-columns: repeat(4, 1fr);
+  }
+} */

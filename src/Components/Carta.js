@@ -3,6 +3,9 @@ import IconoLocalización from '../Images/iconoLocalización.png';
 import PiezaRompecabezas from '../Images/Pieza de rompecabezas tipo portafolio.png';
 import LogoCompañía from '../Images/Hermès-logo.png';
 
+//Diseño
+import './css/Carta.css';
+
 function Carta(props) {
     return (
         <React.Fragment>
