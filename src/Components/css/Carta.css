@@ -1,0 +1,82 @@
+.Carta {
+  background-color: rgb(255, 255, 255);
+  max-width: 37vh;
+  min-height: 58vh;
+
+  -webkit-box-shadow: 0px 0px 91px -27px rgba(0, 0, 0, 0.21);
+  -moz-box-shadow: 0px 0px 91px -27px rgba(0, 0, 0, 0.21);
+  box-shadow: 0px 0px 91px -27px rgba(0, 0, 0, 0.21);
+}
+
+.Carta .LogoCompañía {
+  height: 17vh;
+  justify-content: center;
+  padding-top: 5vh;
+  padding-left: 10vh;
+}
+.Carta hr {
+  width: 30vh;
+  border: 0 none #d6d6d6;
+  border-top: 1px solid #e8e8e8;
+  height: 1px;
+  margin-left: 20px;
+}
+.Carta .Info {
+  margin-left: 22px;
+  min-height: 15vh;
+}
+.Carta .SegundoP {
+  font-size: 12px;
+  /* padding-bottom: 2vh; */
+  margin-top: 30px;
+}
+.Carta .TercerP {
+  color: rgb(135, 135, 135);
+  padding-bottom: 0px;
+  margin-top: 20px;
+  font-size: 12px;
+}
+.Carta .IconoLocalización {
+  margin-top: 10px;
+  float: left;
+  height: 10px;
+}
+.Carta .Localcion {
+  margin-top: 10px;
+  margin-left: 15px;
+  font-size: 11px;
+  color: rgb(214, 214, 214);
+}
+.Carta .Interactivo {
+  background-color: rgb(250, 250, 250);
+  min-height: 15vh;
+  padding-left: 20px;
+}
+.Carta .InfoDinero {
+  min-height: 20vh;
+  margin-top: 20px;
+  float: left;
+}
+.Carta .Dinero {
+  padding-top: 1vh;
+  margin-bottom: 8px;
+  color: blue;
+  font-size: 20px;
+}
+.Carta .HiringReward {
+  font-size: 12px;
+  color: rgb(187, 187, 187);
+}
+.Carta .Icono {
+  margin-top: 25px;
+  margin-left: 55px;
+  padding: 2vh;
+  border-radius: 50%;
+  width: 20px;
+  border: solid;
+  border-width: 1px;
+  border-color: rgb(225, 225, 225);
+}
+.Carta .Icono:hover {
+  background-color: rgb(85, 55, 210);
+}

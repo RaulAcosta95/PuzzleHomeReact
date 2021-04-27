@@ -1,35 +1,14 @@
 import React from 'react';
-import IconoLocalización from '../Images/iconoLocalización.png';
-import PiezaRompecabezas from '../Images/Pieza de rompecabezas tipo portafolio.png';
-import LogoCompañía from '../Images/Hermès-logo.png';
+import CartaConstructor from './Constructors/CartaConstructor';
+//Diseño
+import './css/Jobs.css';
 function Jobs(props) {
  return(
      <React.Fragment>
-          <div className="Recently">
-                <p >RECENTLY ADDED JOBS:</p>
-        </div>
         <div className="Empresas">
-            <div className="Carta">
-                <div className="LogoCompañía">
-                    <img src={LogoCompañía} alt="Logo de la compañia"/>
-                    <hr/>
-                </div>
-                <div className="Info">
-                    <p><b>Art Director</b></p>
-                    <p className="NombreCompañía"> <b>Hermès International S.A.</b> </p>
-                    <img src={IconoLocalización} alt="Icono locación"/>
-                    <p className="Localcion">Harrisburg, Pennsylvania</p>
-                </div>
-                <div className="Interactivo">
-                        <div className="InfoDinero">
-                            <p className="Dinero">$1,240</p>
-                            <p className="HiringReward">of hiring reward</p>
-                        </div>
-                        <div className="Icono">
-                            <img src={PiezaRompecabezas} alt="Pieza de rompecabezas tipo portafolio que se ilumina de azul y añade sombra azul"/>
-                        </div>
-                    </div>
-            </div>
+            <p className="PrimerP"><b>RECENTLY ADDED JOBS:</b></p>
+            <CartaConstructor/>
+
         </div>
      </React.Fragment>
  )   
