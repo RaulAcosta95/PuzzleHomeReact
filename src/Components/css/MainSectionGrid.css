@@ -80,7 +80,7 @@
   }
   .Main .SegundoP {
     grid-column-start: 3;
-    grid-column-end: 29;
+    grid-column-end: -1;
     grid-row-start: 3;
     grid-row-end: 5;
   }
