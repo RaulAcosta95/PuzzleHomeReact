@@ -30,7 +30,8 @@ function Carta(props) {
                             <p className="HiringReward">of hiring reward</p>
                         </div>                    
                         <img className="Icono" src={PiezaRompecabezas} alt="Pieza de rompecabezas tipo portafolio que se ilumina de azul y añade sombra azul"/>
-                    </div>
+                </div>
+                <p class="Extra"><b>Be the first one to recommend!</b></p>
             </div>
             <div className="Carta">
                     <img className="LogoCompañía" src={LogoCompañía2} alt="Logo de la compañia"/>
@@ -47,7 +48,8 @@ function Carta(props) {
                             <p className="HiringReward">of hiring reward</p>
                         </div>                    
                         <img className="Icono" src={PiezaRompecabezas} alt="Pieza de rompecabezas tipo portafolio que se ilumina de azul y añade sombra azul"/>
-                    </div>
+                </div>
+                <p class="Extra"><b>Be the first one to recommend!</b></p>
             </div>
             <div className="Carta">
                     <img className="LogoCompañía" src={LogoCompañía3} alt="Logo de la compañia"/>
@@ -64,7 +66,8 @@ function Carta(props) {
                             <p className="HiringReward">of hiring reward</p>
                         </div>                    
                         <img className="Icono" src={PiezaRompecabezas} alt="Pieza de rompecabezas tipo portafolio que se ilumina de azul y añade sombra azul"/>
-                    </div>
+                </div>
+                <p class="Extra"><b>Be the first one to recommend!</b></p>
             </div>
             <div className="Carta">
                     <img className="LogoCompañía" src={LogoCompañía4} alt="Logo de la compañia"/>
@@ -81,7 +84,8 @@ function Carta(props) {
                             <p className="HiringReward">of hiring reward</p>
                         </div>                    
                         <img className="Icono" src={PiezaRompecabezas} alt="Pieza de rompecabezas tipo portafolio que se ilumina de azul y añade sombra azul"/>
-                    </div>
+                </div>
+                <p class="Extra"><b>Be the first one to recommend!</b></p>
             </div>
             <div className="Carta">
                     <img className="LogoCompañía" src={LogoCompañía5} alt="Logo de la compañia"/>
@@ -98,7 +102,8 @@ function Carta(props) {
                             <p className="HiringReward">of hiring reward</p>
                         </div>                    
                         <img className="Icono" src={PiezaRompecabezas} alt="Pieza de rompecabezas tipo portafolio que se ilumina de azul y añade sombra azul"/>
-                    </div>
+                </div>
+                <p class="Extra"><b>Be the first one to recommend!</b></p>
             </div>
         </React.Fragment>
     )

@@ -2,6 +2,7 @@
   background-color: rgb(255, 254, 254);
   width: 40vh;
   min-height: 3vh;
+  max-height: 58vh;
 
   -webkit-box-shadow: 0px 0px 91px -27px rgba(0, 0, 0, 0.21);
   -moz-box-shadow: 0px 0px 91px -27px rgba(0, 0, 0, 0.21);
@@ -78,4 +79,23 @@
 }
 .Carta .Icono:hover {
   background-color: rgb(85, 55, 210);
+  -webkit-box-shadow: -4px 15px 16px -9px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -4px 15px 16px -9px rgba(0, 0, 0, 0.75);
+  box-shadow: -4px 15px 16px -9px rgba(85, 55, 210, 0.75);
+}
+
+/* Extra */
+.Carta .Extra {
+  padding: 3vh;
+  text-align: center;
+  /* color: #d6d6d6; */
+  display: none;
+  font-size: 10px;
+  background-color: rgb(255, 254, 254);
+}
+.Carta:hover {
+  max-height: 70vh;
+}
+.Carta:hover > .Extra {
+  display: block;
 }
