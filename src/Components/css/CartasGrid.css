@@ -3,7 +3,7 @@
   grid-row-gap: 1em;
 }
 .Empresas {
-  margin-left: 18vh;
+  padding-left: 18vh;
 }
 @media (max-width: 3000px) {
   .ContenedorCartas {
@@ -25,7 +25,7 @@
     grid-template-columns: repeat(1, 1fr);
   }
   .Empresas {
-    margin-left: 10vh;
+    padding-left: 10vh;
   }
 }
 
@@ -34,7 +34,7 @@
     grid-template-columns: repeat(1, 1fr);
   }
   .Empresas {
-    margin-left: 10%;
+    padding-left: 10%;
   }
 }
 /* @media (max-width: 3000px) {

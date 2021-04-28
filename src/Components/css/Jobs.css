@@ -1,9 +1,10 @@
 .Empresas {
   font-family: "Helvetica";
+  background-color: rgba(255, 254, 254);
   /* Cambiar margin en grid */
-  /* -webkit-box-shadow: inset 20px 112px 63px -59px rgba(239, 242, 247, 0.25);
-  -moz-box-shadow: inset 20px 112px 63px -59px rgba(239, 242, 247, 0.25);
-  box-shadow: inset 20px 112px 63px -59px rgba(0, 0, 0, 0.25); */
+  -webkit-box-shadow: inset 20px 240px 0px -59px rgba(0, 0, 0, 0.87);
+  -moz-box-shadow: inset 20px 240px 0px -59px rgba(0, 0, 0, 0.87);
+  box-shadow: inset 20px 240px 0px -59px rgba(239, 242, 247, 0.87);
 }
 .Empresas .PrimerP {
   font-size: 11px;
