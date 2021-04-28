@@ -9,10 +9,7 @@ class CartaConstructor extends React.Component{
             <React.Fragment>
                 <div className="ContenedorCartas">
                     <Carta/>
-                    <Carta/>
-                    <Carta/>
-                    <Carta/>
-                    <Carta/>
+
                 </div>
             </React.Fragment>
         )
