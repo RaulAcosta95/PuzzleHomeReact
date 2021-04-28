@@ -89,11 +89,11 @@
   }
 
   .Header .Boton1 {
-    grid-column-start: 12;
+    grid-column-start: 10;
     grid-column-end: 18;
   }
   .Header .Boton2 {
-    grid-column-start: 12;
+    grid-column-start: 10;
     grid-column-end: 18;
   }
 }

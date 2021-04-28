@@ -70,25 +70,25 @@
 }
 @media (max-width: 420px) {
   .Main {
-    grid-template-rows: repeat(8, 1fr);
+    grid-template-rows: repeat(6, 1fr);
   }
   .Main .PrimerP {
     grid-column-start: 3;
     grid-column-end: 30;
-    grid-row-start: 2;
-    grid-row-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
   }
   .Main .SegundoP {
     grid-column-start: 3;
     grid-column-end: -1;
-    grid-row-start: 3;
-    grid-row-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 4;
   }
   .Main .Form {
     grid-column-start: 3;
     grid-column-end: 25;
-    grid-row-start: 6;
-    grid-row-end: 7;
+    grid-row-start: 5;
+    grid-row-end: 6;
   }
   .Main .FormButton {
     left: 75%;
