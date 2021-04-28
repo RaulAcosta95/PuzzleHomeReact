@@ -16,6 +16,7 @@
   flex-direction: column;
 }
 .Main .FormInput {
+  border: none;
   padding: 3vh;
   border: none;
   /* max-width: 60vh; */
@@ -28,7 +29,15 @@
   -webkit-border-radius: 79px 79px 79px 79px;
 }
 .Main .FormInput:hover {
-  border: 1px solid rgb(170, 170, 172);
+  /* border: 0.5px solid rgb(170, 170, 172); */
+}
+.Main .FormInput:focus {
+  border-width: 2px;
+  border-style: groove;
+  outline: none;
+}
+.Main .FormInput:active {
+  outline: none;
 }
 .Main .FormInput::placeholder {
   font-size: 13px;
@@ -47,8 +56,8 @@
   border-radius: 200px 200px 200px 200px;
   -moz-border-radius: 200px 200px 200px 200px;
   -webkit-border-radius: 200px 200px 200px 200px;
-
-  -webkit-box-shadow: 2px 8px 24px 3px rgba(240, 184, 17, 0.32);
-  -moz-box-shadow: 2px 8px 24px 3px rgba(240, 184, 17, 0.32);
-  box-shadow: 2px 8px 24px 3px rgba(240, 184, 17, 0.32);
+  /* 254, 220, 198 */
+  -webkit-box-shadow: 3px 12px 22px -1px rgba(255, 176, 82, 0.94);
+  -moz-box-shadow: 3px 12px 22px -1px rgba(255, 176, 82, 0.94);
+  box-shadow: 3px 12px 22px -1px rgba(255, 176, 82, 0.94);
 }
