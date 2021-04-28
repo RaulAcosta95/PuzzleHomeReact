@@ -26,7 +26,7 @@ function Carta(props) {
                 </div>
                 <div className="Interactivo">
                         <div className="InfoDinero">
-                            <p className="Dinero"><b>$1,240</b></p>
+                            <p className="Dinero">$1,240</p>
                             <p className="HiringReward">of hiring reward</p>
                         </div>                    
                         <img className="Icono" src={PiezaRompecabezas} alt="Pieza de rompecabezas tipo portafolio que se ilumina de azul y añade sombra azul"/>
@@ -44,7 +44,7 @@ function Carta(props) {
                 </div>
                 <div className="Interactivo">
                         <div className="InfoDinero">
-                            <p className="Dinero"><b>$1,980</b></p>
+                            <p className="Dinero">$1,980</p>
                             <p className="HiringReward">of hiring reward</p>
                         </div>                    
                         <img className="Icono" src={PiezaRompecabezas} alt="Pieza de rompecabezas tipo portafolio que se ilumina de azul y añade sombra azul"/>
@@ -62,7 +62,7 @@ function Carta(props) {
                 </div>
                 <div className="Interactivo">
                         <div className="InfoDinero">
-                            <p className="Dinero"><b>$3,100</b></p>
+                            <p className="Dinero">$3,100</p>
                             <p className="HiringReward">of hiring reward</p>
                         </div>                    
                         <img className="Icono" src={PiezaRompecabezas} alt="Pieza de rompecabezas tipo portafolio que se ilumina de azul y añade sombra azul"/>
@@ -74,13 +74,13 @@ function Carta(props) {
                     <hr/>
                 <div className="Info">
                     <p className="SegundoP"><b>Financial Analyst</b></p>
-                    <p className="TercerP"> <b>Mcdonald's Corporation</b> </p>
+                    <p className="TercerP"> <b>McDonald's Corporation</b> </p>
                     <img className="IconoLocalización" src={IconoLocalización} alt="Icono locación"/>
                     <p className="Localcion">Columbus, Ohio</p>
                 </div>
                 <div className="Interactivo">
                         <div className="InfoDinero">
-                            <p className="Dinero"><b>$2,600</b></p>
+                            <p className="Dinero">$2,600</p>
                             <p className="HiringReward">of hiring reward</p>
                         </div>                    
                         <img className="Icono" src={PiezaRompecabezas} alt="Pieza de rompecabezas tipo portafolio que se ilumina de azul y añade sombra azul"/>
@@ -98,7 +98,7 @@ function Carta(props) {
                 </div>
                 <div className="Interactivo">
                         <div className="InfoDinero">
-                            <p className="Dinero"><b>$1,240</b></p>
+                            <p className="Dinero">$1,240</p>
                             <p className="HiringReward">of hiring reward</p>
                         </div>                    
                         <img className="Icono" src={PiezaRompecabezas} alt="Pieza de rompecabezas tipo portafolio que se ilumina de azul y añade sombra azul"/>
