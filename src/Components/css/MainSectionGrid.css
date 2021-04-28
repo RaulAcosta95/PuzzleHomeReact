@@ -32,11 +32,11 @@
     left: 82%;
   }
   .Main .MainImagen {
-    background-color: blue;
+    /* background-color: blue; */
     grid-column-start: 16;
     grid-column-end: 25;
     grid-row-start: 2;
-    grid-row-end: 11;
+    grid-row-end: 12;
   }
 }
 @media (max-width: 768px) {

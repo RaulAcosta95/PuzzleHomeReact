@@ -12,11 +12,11 @@ function App()
     return (
         //Aquí todas las rutas con el switch
         <BrowserRouter>
-            <Layout>
+            {/* <Layout> */}
                 <Switch>
                     <Route exact path = "/"                     component = { IndexContainer } />
                 </Switch>
-            </Layout>
+            {/* </Layout> */}
         </BrowserRouter>
     );
 }

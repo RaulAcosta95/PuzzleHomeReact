@@ -1,0 +1,11 @@
+@media (max-width: 3000px) {
+  .Top {
+    background-image: url("../../Images/Fondo.png");
+    background-size: cover;
+  }
+}
+@media (max-width: 768px) {
+  .Top {
+    background-image: url("../../Images/Fondo-SinFondo.png");
+  }
+}

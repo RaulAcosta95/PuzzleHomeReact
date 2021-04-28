@@ -7,8 +7,8 @@ function Layout(props)
     //Permite que funcione el switch de rutas
     return (
         <React.Fragment>
-            <HeaderConstructor />
-            {props.children}
+            {/* <HeaderConstructor />
+            {props.children} */}
         </React.Fragment>
     );
 }
