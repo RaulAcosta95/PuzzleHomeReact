@@ -72,12 +72,12 @@
   }
 
   .Header .Boton1 {
-    grid-column-start: 20;
+    grid-column-start: 2;
     grid-column-end: 30;
     margin-top: 1vh;
   }
   .Header .Boton2 {
-    grid-column-start: 20;
+    grid-column-start: 2;
     grid-column-end: 30;
     margin-top: 1vh;
   }
@@ -89,12 +89,18 @@
   }
 
   .Header .Boton1 {
-    grid-column-start: 10;
-    grid-column-end: 18;
+    grid-column-start: 2;
   }
   .Header .Boton2 {
-    grid-column-start: 10;
-    grid-column-end: 18;
+    grid-column-start: 2;
+  }
+}
+@media (max-width: 400px) {
+  .Header .Boton1 {
+    grid-column-start: 2;
+  }
+  .Header .Boton2 {
+    grid-column-start: 2;
   }
 }
 /* .Header {
