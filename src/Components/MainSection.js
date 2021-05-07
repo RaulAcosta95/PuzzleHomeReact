@@ -15,7 +15,11 @@ function MainSection(props)
                     <p className="SegundoP">Help us find <b>the missing puzzle, <br/> get rewarded</b> properly.</p>
                     <form className="Form">
                         <input className="FormInput" type="text" placeholder="Keyword, job title or company"/>
-                        <button className="FormButton" type="submit"><img className="LogoBusqueda" src={IconoBusqueda} alt="Icono de busqueda naranja"/></button>
+                        <button className="FormButton" type="submit">
+                            {/* <img src={IconoBusqueda} alt="Icono de busqueda naranja"/> */}
+                            <i class="fa fa-search" aria-hidden="true"></i>
+
+                        </button>
                     </form>
                     <img className="MainImagen" src={DosPersonasImagen} alt="Imagen dos personas dandose la mano, representa un acuerdo, hay dinero, un contrato de fondo y una lupa en el contrato que representa detalles"/>
                     {/* <img className="MainImagen" src={RemplazoImagen} alt="Imagen dos personas dandose la mano, representa un acuerdo, hay dinero, un contrato de fondo y una lupa en el contrato que representa detalles"/> */}

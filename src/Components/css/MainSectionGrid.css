@@ -28,8 +28,9 @@
     grid-row-start: 7;
     grid-row-end: 8;
   }
-  .Main .FormButton {
-    left: 82%;
+  .Main .Form .FormButton {
+    /* Posicionamiento imagen en input */
+    margin-left: 90%;
   }
   .Main .MainImagen {
     /* background-color: blue; */
@@ -37,6 +38,12 @@
     grid-column-end: 25;
     grid-row-start: 2;
     grid-row-end: 12;
+  }
+}
+@media (max-width: 1150px) {
+  .Main .Form .FormButton {
+    /* Posicionamiento imagen en input */
+    margin-left: 85%;
   }
 }
 @media (max-width: 768px) {
@@ -61,11 +68,18 @@
     grid-row-start: 6;
     grid-row-end: 7;
   }
-  .Main .FormButton {
-    left: 75%;
+  .Main .Form .FormButton {
+    /* Posicionamiento imagen en input */
+    margin-left: 90%;
   }
   .Main .MainImagen {
     display: none;
+  }
+}
+@media (max-width: 480px) {
+  .Main .Form .FormButton {
+    /* Posicionamiento imagen en input */
+    margin-left: 85%;
   }
 }
 @media (max-width: 420px) {
@@ -90,10 +104,14 @@
     grid-row-start: 5;
     grid-row-end: 6;
   }
-  .Main .FormButton {
-    left: 75%;
-  }
+
   .Main .MainImagen {
     display: none;
+  }
+}
+@media (max-width: 360px) {
+  .Main .Form .FormButton {
+    /* Posicionamiento imagen en input */
+    margin-left: 80%;
   }
 }
