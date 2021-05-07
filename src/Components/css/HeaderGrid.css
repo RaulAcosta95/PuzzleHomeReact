@@ -43,16 +43,16 @@
   }
 }
 @media (max-width: 768px) {
+  .Header .PiezaRompecabezas {
+    grid-column-start: 15;
+    grid-column-end: 16;
+  }
   .Header a {
     padding-top: 2vh;
     padding-bottom: 1vh;
     border-bottom: aliceblue;
     border-style: groove;
     border-width: 1px;
-  }
-  .Header .PiezaRompecabezas {
-    grid-column-start: 15;
-    grid-column-end: 16;
   }
   .Header .Home {
     grid-column-start: 1;
