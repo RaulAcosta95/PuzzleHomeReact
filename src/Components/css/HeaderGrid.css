@@ -1,7 +1,7 @@
 .Header {
   display: grid;
   grid-template-columns: repeat(29, 1fr);
-  grid-column-gap: 1em;
+  grid-column-gap: 5px;
 }
 @media (max-width: 3000px) {
   .Header a {
@@ -34,12 +34,16 @@
     grid-column-end: 26;
   }
   .Header .Boton2 {
-    grid-column-start: 27;
+    grid-column-start: 26;
     grid-column-end: 30;
   }
   .Header .Boton1,
   .Header .Boton2 {
     margin-top: 18px;
+  }
+  .BotonMenúDesplegable,
+  .MenúDesplegable {
+    display: none;
   }
 }
 @media (max-width: 768px) {
@@ -54,32 +58,20 @@
     border-style: groove;
     border-width: 1px;
   }
-  .Header .Home {
-    grid-column-start: 1;
-    grid-column-end: 30;
-  }
-  .Header .AboutUs {
-    grid-column-start: 1;
-    grid-column-end: 30;
-  }
-  .Header .Blog {
-    grid-column-start: 1;
-    grid-column-end: 30;
-  }
-  .Header .HowItWorks {
-    grid-column-start: 1;
-    grid-column-end: 30;
+  .Header .Home,
+  .AboutUs,
+  .Blog,
+  .HowItWorks,
+  .Boton1,
+  .Boton2 {
+    display: none;
+    /* grid-column-start: 1;
+    grid-column-end: 30; */
   }
 
-  .Header .Boton1 {
-    grid-column-start: 2;
-    grid-column-end: 30;
-    margin-top: 1vh;
-  }
-  .Header .Boton2 {
-    grid-column-start: 2;
-    grid-column-end: 30;
-    margin-top: 1vh;
+  .BotonMenúDesplegable,
+  .MenúDesplegable {
+    display: block;
   }
 }
 @media (max-width: 420px) {
@@ -87,22 +79,8 @@
     padding-top: 2vh;
     padding-bottom: 1vh;
   }
+}
 
-  .Header .Boton1 {
-    grid-column-start: 2;
-  }
-  .Header .Boton2 {
-    grid-column-start: 2;
-  }
-}
-@media (max-width: 400px) {
-  .Header .Boton1 {
-    grid-column-start: 2;
-  }
-  .Header .Boton2 {
-    grid-column-start: 2;
-  }
-}
 /* .Header {
     display: grid;
     grid-template-columns: repeat(20, 1fr);
